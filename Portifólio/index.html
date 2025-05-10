@@ -1,0 +1,204 @@
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" />
+        <title>document</title>
+    </head>
+
+    <body>
+        <header class="container text-center">
+          <img src="20250509_194036.jpg"
+           class="rounded-circle"
+           alt="avatar do rafael"
+           width="150"
+           height="170"
+           srcset=""
+          />
+          <p class="lead">Olá! O meu nome é Rafael</p>
+          <h1>Eu programo</h1>
+          <p>Sou estudante de programação e procuro aumentar as minhas habilidades.</p>
+          <p>Minhas habilidades</p>
+           <div>
+              <p class="badge bg-secondary">HTML</p>
+              <P class="badge bg-secondary">JavaScript</P>
+              <P class="badge bg-secondary">CSS</P>
+              <P class="badge bg-secondary">Scratch</P>
+           </div>
+          <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+          crossorigin="anonymous"
+          ></script>
+        </header>
+
+        <main class="container mt-5">
+            <h2>Meus projetos</h2>
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img
+                            src="Rafaflix 1.png.png"
+                            class="card-img-top"
+                            alt="Imagem de um site de reviews de filmes">
+                    <div class="card-body">
+                        <h5 class="card-title">Rafaflix</h5>
+                        <p class="card-text">Um exemplo de site que apresenta alguns vídeos de reviews sobre filmes. Feito com HTML e CSS</p>
+                        <button
+                            type="button"
+                            class="btn btn-link"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modal1"
+                        >
+                         Veja o projeto
+                        </button>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img
+                            src="Captura de Tela (8).png"
+                            class="card-img-top"
+                            alt="Imagem de um jogo estilo pong">
+                    <div class="card-body">
+                        <h5 class="card-title">PONG</h5>
+                        <p class="card-text">Um jogo estilo PONG. Feito na linguagem JavaScript no p5.js</p>
+                        <button
+                            type="button"
+                            class="btn btn-link"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modal2"
+                        >
+                         Veja o projeto
+                        </button>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                   <div class="card" style="width: 18rem;">
+                        <img
+                            src="Captura de Tela (9).png"
+                            class="card-img-top"
+                            alt="Imagem de uma arvore auto generativa">
+                    <div class="card-body">
+                        <h5 class="card-title">Arvore generativa</h5>
+                        <p class="card-text">Uma arvore que cresce aleatoriamente. Feita na plataforma scratch</p>
+                        <button
+                            type="button"
+                            class="btn btn-link"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modal3"
+                        >
+                         Veja o projeto
+                        </button>
+                    </div>
+                    </div>
+                </div>
+                
+            </div>
+        </main>
+
+        <div class="modal" id="modal1" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Rafaflix-O site de vídeos de reviews</h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>O projeto é uma pagina feita com HTML e CSS, onde são exibidos vídeos de reviews e análises de filmes.</p>
+                        <p>A estrutura do site é baseada no HTML, que define a semântica e o layout do conteúdo, enquanto o CSS é usado para estilizar a página visualmente, incluindo cores, tipografia e a disposição dos elementos.</p>
+                        <p>O projeto foi feito para uma das aulas da Alura. O processo de desenvolvimento foi um pouco desafiador, mas  mesmo assim tive divesão em desenvolve-lo.</p>
+                        <img 
+                            src="Rafaflix 1.png.png"
+                            class="img-fluid w-100"
+                            alt="Imagem de um site de review de filmes"
+                        />
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://github.com/RafaelHajimi/Rafaflix">Ver código do projeto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="modal2" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">PONG-joguinho</h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>O projeto é um jogo escrito em JavaScript no p5.js no estilo do jogo clássico PONG.</p>
+                        <p>Tudo no jogo foi escrito em JavaScript, que executa os movimentos, sistema de pontuação e toca musica.</p>
+                        <p>O projeto foi feito para uma das aulas da Alura. Foi muito divertido fazer esse projeto, parcialmente pelo fato de eu já saber um pouco de Java antes mesmo de desenvolve-lo.</p>
+                        <img 
+                            src="Captura de Tela (8).png"
+                            class="img-fluid w-100"
+                            alt="Imagem de um site de review de filmes"
+                        />
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://editor.p5js.org/Rafael_321/sketches/c_pwmWqJ4">Ver código do projeto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="modal3" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Arvore generatica-veja a beleza da natureza</h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>O projeto é uma arvore que cresce proguessivamente, feita no Scratch.</p>
+                        <p>A arvore inicia em um único ponto, e apartir disso, usa algoritmos para crescer aleatoriamente.</p>
+                        <p>O projeto foi feito para uma das aulas da Alura. Esse projeto foi o mais cansativo dos 3, pois eu encontrei muitos bugs, mas não nego que foi satizfatório quando terminei.</p>
+                        <img 
+                            src="Captura de Tela (9).png"
+                            class="img-fluid w-100"
+                            alt="Imagem de um site de review de filmes"
+                        />
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://scratch.mit.edu/projects/882538976/editor">Ver código do projeto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+    <footer class="container py-5">
+        <h5>Entre em contato</h5>
+        <div>
+            <a href="https://github.com/RafaelHajimi">Github</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Feito atenciosamente por Rafael Hajimi</p>
+    </footer>
+
+</html>
